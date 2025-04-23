@@ -1,130 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ashutosh Shukla | Resume</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: 'Roboto', sans-serif;
-        }
-        body {
-            background-color: #f4f6f8;
-            color: #333;
-            line-height: 1.6;
-            padding: 20px;
-        }
-        header {
-            background-color: #0077b6;
-            color: #fff;
-            padding: 20px;
-            text-align: center;
-            border-radius: 12px;
-            margin-bottom: 30px;
-        }
-        header h1 {
-            font-size: 2.5rem;
-            margin-bottom: 10px;
-        }
-        header p, header a {
-            font-size: 1rem;
-            color: #e0f7fa;
-        }
-        header .btn {
-            display: inline-block;
-            margin-top: 15px;
-            padding: 10px 20px;
-            background-color: #00b4d8;
-            color: white;
-            border: none;
-            border-radius: 8px;
-            text-decoration: none;
-            transition: background 0.3s ease;
-        }
-        header .btn:hover {
-            background-color: #0096c7;
-        }
-        section {
-            background: white;
-            margin-bottom: 20px;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
-        }
-        section h2 {
-            color: #0077b6;
-            margin-bottom: 10px;
-        }
-        ul {
-            list-style-type: disc;
-            margin-left: 20px;
-        }
-        footer {
-            text-align: center;
-            margin-top: 30px;
-            font-size: 0.9rem;
-            color: #666;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ashutosh Shukla - Resume</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+    }
+  </style>
 </head>
-<body>
-    <header>
-        <h1>Ashutosh Shukla</h1>
-        <p>Bhadohi, Uttar Pradesh | <a href="mailto:shuklaashu2003@gmail.com">shuklaashu2003@gmail.com</a> | +91 75188 34066</p>
-        <a href="RESUME.pdf" download class="btn">Download Resume (PDF)</a>
-    </header>
-
-    <section>
-        <h2>Career Objective</h2>
-        <p>Aspiring software developer with a strong foundation in programming and web development, seeking to contribute to innovative IT solutions while advancing my technical skills.</p>
-    </section>
-
-    <section>
-        <h2>Summary</h2>
-        <ul>
-            <li>Motivated BCA student with hands-on experience in web development.</li>
-            <li>Built an online attendance management system improving efficiency by 20%.</li>
-            <li>Proficient in Java, HTML/CSS, MySQL, and JavaScript.</li>
+<body class="bg-gradient-to-br from-blue-50 to-blue-100 text-gray-800">
+  <header class="bg-white/80 backdrop-blur shadow p-6 sticky top-0 z-50">
+    <div class="max-w-5xl mx-auto flex justify-between items-center">
+      <h1 class="text-3xl font-extrabold text-blue-700">Ashutosh Shukla</h1>
+      <nav>
+        <ul class="flex gap-6 text-lg">
+          <li><a href="#about" class="hover:text-blue-600 font-medium">About</a></li>
+          <li><a href="#skills" class="hover:text-blue-600 font-medium">Skills</a></li>
+          <li><a href="#projects" class="hover:text-blue-600 font-medium">Projects</a></li>
+          <li><a href="#education" class="hover:text-blue-600 font-medium">Education</a></li>
+          <li><a href="#contact" class="hover:text-blue-600 font-medium">Contact</a></li>
         </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="max-w-5xl mx-auto px-6 py-12 text-left">
+    <section id="about" class="my-16">
+      <h2 class="text-4xl font-bold text-blue-700 mb-4">Hi, I'm Ashutosh</h2>
+      <p class="text-lg text-gray-700 max-w-2xl">I'm a BCA graduate from Mahatma Gandhi Kashi Vidyapeeth, passionate about building modern web applications using Java, HTML/CSS, and MySQL. Currently focused on entering the IT industry and growing my skills while supporting my family.</p>
     </section>
 
-    <section>
-        <h2>Education</h2>
-        <ul>
-            <li><strong>BCA</strong>, MG Kashi Vidyapeeth – 2021–2024 – CGPA: 7.0</li>
-            <li><strong>12th</strong>, CBSE – 2021 – Sun Valley Public School – 6.0</li>
-            <li><strong>10th</strong>, CBSE – 2019 – J.D. Public School – 7.2</li>
-        </ul>
+    <section id="skills" class="my-16">
+      <h2 class="text-3xl font-semibold text-blue-700 mb-8">Skills</h2>
+      <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6">
+        <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition text-center">Java</div>
+        <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition text-center">HTML</div>
+        <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition text-center">CSS</div>
+        <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition text-center">MySQL</div>
+        <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition text-center">Git</div>
+        <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition text-center">Responsive Design</div>
+      </div>
     </section>
 
-    <section>
-        <h2>Skills</h2>
-        <ul>
-            <li>Java, HTML/CSS, JavaScript, MySQL</li>
-            <li>MS Office, Google Drive, Presentations</li>
-            <li>Basic DSA, C/C++</li>
-        </ul>
+    <section id="projects" class="my-16">
+      <h2 class="text-3xl font-semibold text-blue-700 mb-8">Projects</h2>
+      <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition max-w-3xl">
+        <h3 class="text-xl font-bold text-blue-600">Online Attendance Management System</h3>
+        <p class="text-gray-600 mt-2">A web-based tool built with HTML, CSS, Java, and MySQL for managing student attendance effectively.</p>
+        <a href="#" class="text-blue-500 font-medium inline-block mt-4">View Project →</a>
+      </div>
     </section>
 
-    <section>
-        <h2>Project</h2>
-        <h3>Online Attendance Management System</h3>
-        <p>Developed a web-based system for managing attendance with reporting and data management features.</p>
-        <p><strong>Tech used:</strong> Java, MySQL, HTML/CSS, JavaScript</p>
+    <section id="education" class="my-16">
+      <h2 class="text-3xl font-semibold text-blue-700 mb-8">Education</h2>
+      <div class="bg-white p-6 rounded-xl shadow max-w-3xl">
+        <p class="text-lg font-medium">BCA (2021–2024)</p>
+        <p class="text-gray-600">Mahatma Gandhi Kashi Vidyapeeth, Varanasi</p>
+      </div>
     </section>
 
-    <section>
-        <h2>Personal Info</h2>
-        <p><strong>Date of Birth:</strong> 9th November 2003</p>
-        <p><strong>Languages:</strong> Hindi (Fluent), English (Intermediate)</p>
+    <section id="contact" class="my-16">
+      <h2 class="text-3xl font-semibold text-blue-700 mb-4">Get In Touch</h2>
+      <p class="text-gray-700">Let's connect and collaborate!</p>
+      <p class="mt-4">Email: <a href="mailto:ashutoshshukla0911@gmail.com" class="text-blue-600">ashutoshshukla0911@gmail.com</a></p>
+      <p>GitHub: <a href="https://github.com/ashutoshshukla0911" class="text-blue-600">github.com/ashutoshshukla0911</a></p>
+      <a href="Ashutosh_Resume.pdf" download class="inline-block mt-6 bg-blue-600 text-white px-6 py-2 rounded-full shadow hover:bg-blue-700 transition">Download Resume</a>
     </section>
+  </main>
 
-    <footer>
-        <p>&copy; 2024 Ashutosh Shukla</p>
-    </footer>
+  <footer class="bg-white text-center py-6 shadow-inner">
+    <p class="text-sm text-gray-500">&copy; 2025 Ashutosh Shukla. All rights reserved.</p>
+  </footer>
 </body>
 </html>
